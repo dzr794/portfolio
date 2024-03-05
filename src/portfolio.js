@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "David Zapata",
+  title: "Hi all, I'm David",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Multimedia engineer with more than 7 years of successful career as founding partner and development director at Saki S.A.S. I excel in leading innovative projects and contributing to the growth of teams focused on excellence in software and multimedia development. My holistic approach and academic background in multimedia engineering position me as an ideal candidate for roles that demand technical and creative leadership."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1bNzbSTEdKu5kO9s9-FAmjKvlxjXHbJCS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/dzr794",
+  linkedin: "https://www.linkedin.com/in/dzr794/",
+  gmail: "dzr794@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -52,12 +52,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ UX is always a priority."
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -77,11 +76,23 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
+      skillName: "less",
+      fontAwesomeClassname: "fab fa-less"
+    },
+    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
       skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "react native",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -89,33 +100,33 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Accesibility",
+      fontAwesomeClassname: "fas fa-universal-access"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "HCI",
+      fontAwesomeClassname: "fas fa-hand-pointer"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +137,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Universidad de San Buenaventura",
+      logo: require("./assets/images/logo-universidad-san-buenaventura.webp"),
+      subHeader: "Multimedia Engineer",
+      duration: "June 2011 - December 2015",
+      desc: "published 1 paper for the 12th colombian congress of computing ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Diseño e implementación de una capa multisensorial para niños con discapacidad visual",
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,17 +155,25 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Programming",
+      progressPercentage: "100%"
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "90%"
+    },
+    {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Videogame development", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "Video and Audio Editing", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -174,29 +184,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Founding Partner and Development Director",
+      company: "Saki S.A.S.",
+      companylogo: require("./assets/images/saki-logo.webp"),
+      date: "Jan 2016 - Dec 2023",
+      desc: "As a founding partner and development director at Saki I gained important experience in the following areas:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Leadership",
+        "Project management",
+        "Entrepreneurship",
+        "Time management",
+        "Webflow Web development",
+        "Shopify Web development",
+        "Wordpress Web development",
+        "Video editing and post-production",
+        "Cyber security",
+        "WebAR development",
+        "Unity development",
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -216,28 +221,147 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/LogoPassaro.webp"),
+      projectName: "Passaro Shopify eCommerce",
+      projectDesc: "Pássaro is a clothing brand made in Colombia that offers jeans, blouses, shorts, skirts and more.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.passaro.com.co/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo_aprende-a-invertir.webp"),
+      projectName: "Aprende a Invertir Webflow web page",
+      projectDesc: "A website that teaches you how to invest in the stock market from scratch, with courses, guides, templates and free tools.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.aprendeainvertir.co/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/app-ginsac.webp"),
+      projectName: "Ginsac App",
+      projectDesc: "App developed in Unity for Ginsac Colombia S.A.S. The app enables customers to interactively visualize the final installation of the machinery, enhancing the sales process.",
+      footerLink: [
+        {
+          name: "Watch App Reel",
+          url: "https://youtu.be/GEtIpqKYy_s"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/how-is-my-kid-driving.webp"),
+      projectName: "How is my kid driving",
+      projectDesc: "Developed a web and a video for this client",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://howismykiddriving.com/"
+        },
+        {
+          name: "Watch Video",
+          url: "https://youtu.be/c3NTrKy4i44"
+        }
+
+      ]
+    },
+    {
+      image: require("./assets/images/thumbnail_Module-3.webp"),
+      projectName: "Video: Colmena Gestión, Module 3 (co-developments)",
+      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=Dc4Kbr_l0QA"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/thumbnail_SG-SST.webp"),
+      projectName: "Video: Colmena Gestión, SG SST (co-developments)",
+      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=vTHpQMhKgl4"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/thumbnail_actores.webp"),
+      projectName: "Video: Colmena Gestión, Actores (co-developments)",
+      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=zruoQoPsgEY"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/thumbnail_peligro-y-riesgos.webp"),
+      projectName: "Video: Colmena Gestión, Peligro y Riesgos (co-developments)",
+      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=igvI0XgZNxQ"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/thumbnail_origen.webp"),
+      projectName: "Video: Colmena Gestión, Origen (co-developments)",
+      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=vwxPytbP5BE"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/thumbnail_objetivo.webp"),
+      projectName: "Video: Colmena Gestión, Objetivo (co-developments)",
+      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=p9AFI9Ponw8"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/thumbnail_definiciones-clave.webp"),
+      projectName: "Video: Colmena Gestión, Definiciones clave (co-developments)",
+      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=4-IaM0EopJg"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/thumbnail_zukai350.webp"),
+      projectName: "Video: Find out how to make your investment more profitable with ZUKAI",
+      projectDesc: "This video was the solution to the problem: How to teach them if they don't read the manuals?",
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=7FJVvDqVcpI"
+        }
+      ]
+    },
+    
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -246,59 +370,142 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Courses And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "React Native course",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "React Native: Native applications for IOS and Android from DevTalles",
+      image: require("./assets/images/curso_devTalles_ReactNative.webp"),
+      imageAlt: "React Native course image",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "#"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Course repository",
+          url: "https://github.com/dzr794/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "React course",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "React: From zero to expert ( Hooks and MERN ) course from DevTalles",
+      image: require("./assets/images/curso_devTalles_React.webp"),
+      imageAlt: "React course image",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "#"
+        },
+        {
+          name: "Course repository",
+          url: "https://github.com/dzr794/curso-react-zero-to-expert"
+        }
+      ]
+    },
+    {
+      title: "GIT+GitHub course",
+      subtitle: "GIT+GitHub: A whole version control system from scratch from DevTalles",
+      image: require("./assets/images/curso_devTalles_git-github.webp"),
+      imageAlt: "GIT+GitHub course image",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1G9Ebz-m1xBaR9Ys76lzW_6c74aWjm80E/view?usp=sharing"
+        },
+        {
+          name: "Course repository",
+          url: "https://github.com/dzr794/curso-git"
+        }
+      ]
+    },
+    {
+      title: "SOLID Principles course",
+      subtitle: "SOLID and Clean Code principles from DevTalles",
+      image: require("./assets/images/curso_devTalles_SOLID.webp"),
+      imageAlt: "SOLID Principles course image",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1Bfr2SY8c23c0LtID5LbClrXOuHScd33D/view?usp=sharing"
+        },
+        {
+          name: "Course repository",
+          url: "https://github.com/dzr794/clean-solid-course"
+        }
+      ]
+    },
+    {
+      title: "TypeScript course",
+      subtitle: "TypeScript: Your complete guide and handbook from DevTalles",
+      image: require("./assets/images/curso_devTalles_typescript.webp"),
+      imageAlt: "TypeScript course image",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1iunIHkyeAB8nlFbzv-1Eakso5eWliTTT/view?usp=sharing"
+        },
+        {
+          name: "Course repository",
+          url: "https://github.com/dzr794/LEARNING-TYPESCRIPT"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "CMS - Level 1",
+      subtitle: "Webflow certification exam: CMS - Level 1",
+      image: require("./assets/images/webflow.webp"),
+      imageAlt: "Webflow Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        { 
+          name: "Certification", 
+          url: "https://drive.google.com/file/d/1e9-CGQrLaK78Wem-_T7iwwNRFQNssDwP/view?usp=sharing"
+        },
       ]
-    }
+    },
+    {
+      title: "Layout - Level 2",
+      subtitle: "Webflow certification exam: Layout - Level 2",
+      image: require("./assets/images/webflow.webp"),
+      imageAlt: "Webflow Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1ZOnlylVT8fdT5htI9FKqu0ShwZx5Y7i1/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Layout - Level 1",
+      subtitle: "Webflow certification exam: Layout - Level 1",
+      image: require("./assets/images/webflow.webp"),
+      imageAlt: "Webflow Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1jCof2YUHJfQ3FCOiZBXgITlrKWAFX75d/view?usp=sharing"
+        },
+      ]
+    },
+    {
+      title: "Webflow 101",
+      subtitle: "Webflow certification exam: Webflow 101",
+      image: require("./assets/images/webflow.webp"),
+      imageAlt: "Webflow Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/14PCgK_YbSdiPm5BqashLKl67i53l3Jsu/view?usp=sharing"
+        },
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +531,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +550,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +563,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+57-3168263302",
+  email_address: "dzr794@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
