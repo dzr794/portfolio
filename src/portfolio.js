@@ -54,9 +54,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications."
     ),
-    emoji(
-      "⚡ UX is always a priority."
-    ),
+    emoji("⚡ UX is always a priority.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -126,7 +124,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "HCI",
       fontAwesomeClassname: "fas fa-hand-pointer"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -143,7 +141,7 @@ const educationInfo = {
       duration: "June 2011 - December 2015",
       desc: "published 1 paper for the 12th colombian congress of computing ",
       descBullets: [
-        "Diseño e implementación de una capa multisensorial para niños con discapacidad visual",
+        "Diseño e implementación de una capa multisensorial para niños con discapacidad visual"
       ]
     }
   ]
@@ -173,7 +171,7 @@ const techStack = {
     {
       Stack: "Video and Audio Editing", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -200,7 +198,7 @@ const workExperiences = {
         "Video editing and post-production",
         "Cyber security",
         "WebAR development",
-        "Unity development",
+        "Unity development"
       ]
     }
   ]
@@ -223,7 +221,8 @@ const bigProjects = {
     {
       image: require("./assets/images/LogoPassaro.webp"),
       projectName: "Passaro Shopify eCommerce",
-      projectDesc: "Pássaro is a clothing brand made in Colombia that offers jeans, blouses, shorts, skirts and more.",
+      projectDesc:
+        "Pássaro is a clothing brand made in Colombia that offers jeans, blouses, shorts, skirts and more.",
       footerLink: [
         {
           name: "Visit Website",
@@ -235,7 +234,8 @@ const bigProjects = {
     {
       image: require("./assets/images/logo_aprende-a-invertir.webp"),
       projectName: "Aprende a Invertir Webflow web page",
-      projectDesc: "A website that teaches you how to invest in the stock market from scratch, with courses, guides, templates and free tools.",
+      projectDesc:
+        "A website that teaches you how to invest in the stock market from scratch, with courses, guides, templates and free tools.",
       footerLink: [
         {
           name: "Visit Website",
@@ -246,7 +246,8 @@ const bigProjects = {
     {
       image: require("./assets/images/app-ginsac.webp"),
       projectName: "Ginsac App",
-      projectDesc: "App developed in Unity for Ginsac Colombia S.A.S. The app enables customers to interactively visualize the final installation of the machinery, enhancing the sales process.",
+      projectDesc:
+        "App developed in Unity for Ginsac Colombia S.A.S. The app enables customers to interactively visualize the final installation of the machinery, enhancing the sales process.",
       footerLink: [
         {
           name: "Watch App Reel",
@@ -267,13 +268,13 @@ const bigProjects = {
           name: "Watch Video",
           url: "https://youtu.be/c3NTrKy4i44"
         }
-
       ]
     },
     {
       image: require("./assets/images/thumbnail_Module-3.webp"),
       projectName: "Video: Colmena Gestión, Module 3 (co-developments)",
-      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      projectDesc:
+        'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
       footerLink: [
         {
           name: "Watch Video",
@@ -284,7 +285,8 @@ const bigProjects = {
     {
       image: require("./assets/images/thumbnail_SG-SST.webp"),
       projectName: "Video: Colmena Gestión, SG SST (co-developments)",
-      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      projectDesc:
+        'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
       footerLink: [
         {
           name: "Watch Video",
@@ -296,7 +298,8 @@ const bigProjects = {
     {
       image: require("./assets/images/thumbnail_actores.webp"),
       projectName: "Video: Colmena Gestión, Actores (co-developments)",
-      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      projectDesc:
+        'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
       footerLink: [
         {
           name: "Watch Video",
@@ -306,8 +309,10 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/thumbnail_peligro-y-riesgos.webp"),
-      projectName: "Video: Colmena Gestión, Peligro y Riesgos (co-developments)",
-      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      projectName:
+        "Video: Colmena Gestión, Peligro y Riesgos (co-developments)",
+      projectDesc:
+        'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
       footerLink: [
         {
           name: "Watch Video",
@@ -318,7 +323,8 @@ const bigProjects = {
     {
       image: require("./assets/images/thumbnail_origen.webp"),
       projectName: "Video: Colmena Gestión, Origen (co-developments)",
-      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      projectDesc:
+        'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
       footerLink: [
         {
           name: "Watch Video",
@@ -329,7 +335,8 @@ const bigProjects = {
     {
       image: require("./assets/images/thumbnail_objetivo.webp"),
       projectName: "Video: Colmena Gestión, Objetivo (co-developments)",
-      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      projectDesc:
+        'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
       footerLink: [
         {
           name: "Watch Video",
@@ -339,8 +346,10 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/thumbnail_definiciones-clave.webp"),
-      projectName: "Video: Colmena Gestión, Definiciones clave (co-developments)",
-      projectDesc: 'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
+      projectName:
+        "Video: Colmena Gestión, Definiciones clave (co-developments)",
+      projectDesc:
+        'Co-development made with "Maranta Producción y Diseño" for "Colmena Seguros"',
       footerLink: [
         {
           name: "Watch Video",
@@ -351,17 +360,17 @@ const bigProjects = {
 
     {
       image: require("./assets/images/thumbnail_zukai350.webp"),
-      projectName: "Video: Find out how to make your investment more profitable with ZUKAI",
-      projectDesc: "This video was the solution to the problem: How to teach them if they don't read the manuals?",
+      projectName:
+        "Video: Find out how to make your investment more profitable with ZUKAI",
+      projectDesc:
+        "This video was the solution to the problem: How to teach them if they don't read the manuals?",
       footerLink: [
         {
           name: "Watch Video",
           url: "https://www.youtube.com/watch?v=7FJVvDqVcpI"
         }
       ]
-    },
-    
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -411,7 +420,8 @@ const achievementSection = {
     },
     {
       title: "GIT+GitHub course",
-      subtitle: "GIT+GitHub: A whole version control system from scratch from DevTalles",
+      subtitle:
+        "GIT+GitHub: A whole version control system from scratch from DevTalles",
       image: require("./assets/images/curso_devTalles_git-github.webp"),
       imageAlt: "GIT+GitHub course image",
       footerLink: [
@@ -464,10 +474,10 @@ const achievementSection = {
       image: require("./assets/images/webflow.webp"),
       imageAlt: "Webflow Logo",
       footerLink: [
-        { 
-          name: "Certification", 
+        {
+          name: "Certification",
           url: "https://drive.google.com/file/d/1e9-CGQrLaK78Wem-_T7iwwNRFQNssDwP/view?usp=sharing"
-        },
+        }
       ]
     },
     {
@@ -479,7 +489,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1ZOnlylVT8fdT5htI9FKqu0ShwZx5Y7i1/view?usp=sharing"
-        },
+        }
       ]
     },
     {
@@ -491,7 +501,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1jCof2YUHJfQ3FCOiZBXgITlrKWAFX75d/view?usp=sharing"
-        },
+        }
       ]
     },
     {
@@ -503,9 +513,9 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/14PCgK_YbSdiPm5BqashLKl67i53l3Jsu/view?usp=sharing"
-        },
+        }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
