@@ -62,6 +62,10 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -89,10 +93,11 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
-    {
-      skillName: "react native",
-      fontAwesomeClassname: "fab fa-react"
-    },
+    
+    // {
+    //   skillName: "react native",
+    //   fontAwesomeClassname: "fab fa-react"
+    // },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
