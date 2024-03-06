@@ -215,6 +215,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
+  display: true, // Set false to hide this section, defaults to true
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
@@ -372,7 +373,6 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
