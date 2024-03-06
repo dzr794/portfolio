@@ -385,22 +385,39 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "React Native course",
+      title: "Python course",
       subtitle:
-        "React Native: Native applications for IOS and Android from DevTalles",
-      image: require("./assets/images/curso_devTalles_ReactNative.webp"),
-      imageAlt: "React Native course image",
+        "Python - Zero to Hero bootcamp certificate from Udemy",
+      image: require("./assets/images/pyhton-udemy.jpg"),
+      imageAlt: "Python course image",
       footerLink: [
         {
           name: "Certification",
-          url: "#"
+          url: "https://drive.google.com/file/d/1M33Xi09elV1O5JzOYUg0vpl-jBkxbtFM/view?usp=drive_link"
         },
-        {
-          name: "Course repository",
-          url: "https://github.com/dzr794/"
-        }
+        // {
+        //   name: "Course repository",
+        //   url: "https://github.com/dzr794/curso-react-zero-to-expert"
+        // }
       ]
     },
+    // {
+    //   title: "React Native course",
+    //   subtitle:
+    //     "React Native: Native applications for IOS and Android from DevTalles",
+    //   image: require("./assets/images/curso_devTalles_ReactNative.webp"),
+    //   imageAlt: "React Native course image",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "#"
+    //     },
+    //     {
+    //       name: "Course repository",
+    //       url: "https://github.com/dzr794/"
+    //     }
+    //   ]
+    // },
     {
       title: "React course",
       subtitle:
