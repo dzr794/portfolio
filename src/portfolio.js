@@ -26,7 +26,7 @@ const greeting = {
     "Multimedia engineer with more than 7 years of successful career as founding partner and development director at Saki S.A.S. I excel in leading innovative projects and contributing to the growth of teams focused on excellence in software and multimedia development. My holistic approach and academic background in multimedia engineering position me as an ideal candidate for roles that demand technical and creative leadership."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1bNzbSTEdKu5kO9s9-FAmjKvlxjXHbJCS/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1aFNSu7wgWWpaqEEhMrGmvQdGfNTrbVTm/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
