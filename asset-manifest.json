@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "https://dzr794.github.io/portfolio/static/css/main.5956745a.css",
-    "main.js": "https://dzr794.github.io/portfolio/static/js/main.16a22685.js",
+    "main.js": "https://dzr794.github.io/portfolio/static/js/main.f679b522.js",
     "static/css/487.bb36206c.chunk.css": "https://dzr794.github.io/portfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "https://dzr794.github.io/portfolio/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "https://dzr794.github.io/portfolio/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.567a0b93.chunk.js": "https://dzr794.github.io/portfolio/static/js/990.567a0b93.chunk.js",
     "static/media/Montserrat-Regular.ttf": "https://dzr794.github.io/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/pyhton-udemy.jpg": "https://dzr794.github.io/portfolio/static/media/pyhton-udemy.929e38099a75c86edd0d.jpg",
     "static/media/thumbnail_peligro-y-riesgos.webp": "https://dzr794.github.io/portfolio/static/media/thumbnail_peligro-y-riesgos.277f6e53d07de686e600.webp",
     "static/media/Agustina.woff": "https://dzr794.github.io/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/thumbnail_objetivo.webp": "https://dzr794.github.io/portfolio/static/media/thumbnail_objetivo.9f2d752523700df6a10c.webp",
-    "static/media/curso_devTalles_ReactNative.webp": "https://dzr794.github.io/portfolio/static/media/curso_devTalles_ReactNative.2d0d4181b8abe9207563.webp",
     "static/media/manOnTable.svg": "https://dzr794.github.io/portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/logo_aprende-a-invertir.webp": "https://dzr794.github.io/portfolio/static/media/logo_aprende-a-invertir.d9bf8da612c0b5fb12b3.webp",
     "static/media/curso_devTalles_React.webp": "https://dzr794.github.io/portfolio/static/media/curso_devTalles_React.bb34f1c9b3f4f7f16435.webp",
@@ -35,7 +35,7 @@
     "index.html": "https://dzr794.github.io/portfolio/index.html",
     "static/media/talksCardBack.svg": "https://dzr794.github.io/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.5956745a.css.map": "https://dzr794.github.io/portfolio/static/css/main.5956745a.css.map",
-    "main.16a22685.js.map": "https://dzr794.github.io/portfolio/static/js/main.16a22685.js.map",
+    "main.f679b522.js.map": "https://dzr794.github.io/portfolio/static/js/main.f679b522.js.map",
     "487.bb36206c.chunk.css.map": "https://dzr794.github.io/portfolio/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "https://dzr794.github.io/portfolio/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "https://dzr794.github.io/portfolio/static/css/990.c6a7ee28.chunk.css.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.5956745a.css",
-    "static/js/main.16a22685.js"
+    "static/js/main.f679b522.js"
   ]
 }
